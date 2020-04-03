@@ -96,5 +96,5 @@ plot.line(x, sus)
 # Set up layouts and add to document
 # inputs = column(text, offset, amplitude, phase, freq)
 #
- curdoc().add_root(row(inputs, plot, width=800))
- curdoc().title = "Sliders"
+curdoc().add_root(row(inputs, plot, width=800))
+curdoc().title = "Sliders"
