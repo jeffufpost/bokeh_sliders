@@ -15,7 +15,7 @@ from bokeh.models import ColumnDataSource, Slider, TextInput
 from bokeh.plotting import figure
 
 # Set up data
-N = 200
+N = 400
 x = np.linspace(0, 4*np.pi, N)
 y = np.sin(x)
 source = ColumnDataSource(data=dict(x=x, y=y))
